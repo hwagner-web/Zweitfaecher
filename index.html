@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafik Zweitfächer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .box {
+            background-color: #235179;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+	    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .box:hover {
+            background-color: #3E85C6;
+        }
+
+        .box-large {
+	    background-color: #9CC0E2;
+            color: white;
+            grid-column: span 3;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .box:hover {
+            background-color: #3E85C6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/berufsdeutsch/" class="box" target="_blank">Berufssprache Deutsch </a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/deutsch/" class="box" target="_blank">Deutsch</a>
+        <a href="https://www.uni-bamberg.de/anglistik-amerikanistik/studium/studiengaenge/englisch-im-bsc-bwl-und-msc-wipaed/" class="box" target="_blank">Englisch</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/evangelische-theologie/" class="box" target="_blank">Evangelische Theologie</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/franzoesisch/" class="box" target="_blank">Französisch</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/geographie/" class="box" target="_blank">Geographie</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/katholische-theologie/" class="box" target="_blank">Katholische Theologie</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/politik-und-gesellschaft/" class="box" target="_blank">Politik und Gesellschaft</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/wirtschaftsinformatik/" class="box" target="_blank">Wirtschaftsinformatik</a>
+        <a href="https://www.uni-bamberg.de/wipaed/studium/waehrend-des-studiums/zweitfaecher/zweitfach-als-quereinsteiger/" class="box box-large" target="_blank">Nachholen eines Zweitfachs im Zertifikatsprogramm</a>
+    </div>
+</body>
+</html>
